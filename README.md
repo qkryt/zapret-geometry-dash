@@ -2,10 +2,42 @@
 
 # <img src="https://static.wikia.nocookie.net/logopedia/images/4/41/Geometry_Dash_Icon.svg/revision/latest?cb=20220220121501" height=28 /> <a href="https://github.com/qkryt/">qkryt</a><a href="https://github.com/qkryt/zapret-geometry-dash">/zapret-geometry-dash</a> <img src="https://images.steamusercontent.com/ugc/24313456754767771/12393CA9D519144403B272CE5C9C00D40F21378C/" height=28 />
 
-**NEW**: Ускорение Telegram Desktop - https://github.com/Flowseal/tg-ws-proxy  
 Альтернатива https://github.com/bol-van/zapret-win-bundle  
 Также вы можете материально поддержать оригинального разработчика zapret [тут](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0)
 </div>
+
+## ⚖️Лицензирование
+
+Оригинальный проект [zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
+Проект распространяется на условиях лицензии [MIT](https://github.com/Flowseal/zapret-discord-youtube/blob/main/LICENSE.txt)
+
+## 🩷Благодарность участникам проекта
+
+[Создатели проекта zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube/graphs/contributors)
+
+Создатели zapret-gd [qkryt](https://github.com/qkryt/), [dankmeme01](https://github.com/dankmeme01/)
+
+💖 Отдельная благодарность разработчику [zapret](https://github.com/bol-van/zapret) - [bol-van](https://github.com/bol-van)
+
+## ⚙️Использование
+
+1. Включите Secure DNS
+    * В Chrome - "Использовать безопасный DNS", и выбрать поставщика услуг DNS (выбрать вариант, отличный от поставщика по умолчанию)
+    * В Firefox - "Включить DNS через HTTPS, используя: Максимальную защиту", затем "Выбрать поставщика" и вписать URL поставщика вручную, например можно использовать `https://dns.google/dns-query` (т.к. поставщик Cloudflare может быть заблокирован)
+    * В Windows 11 поддерживается включение Secure DNS прямо в настройках ОС - [инструкция тут](https://remontka.pro/dns-over-https-windows-11/). Рекомендуется, если вы пользуетесь Windows 11
+    * Если у вас роутер Keenetic, включите в настройках роутера опцию "Транзит запросов". Отключение этой опции может привести к проблемам при настройке и использовании Secure DNS на компьютере
+
+2. Скачайте архив (zip/rar) со [страницы последнего релиза](https://github.com/Flowseal/zapret-discord-youtube/releases/latest)
+
+3. Зайдите в свойства скачанного архива и поставьте галочку "Разблокировать". Если вы используете архиватор 7-Zip или PeaZip, этот шаг можно пропустить
+
+4. Распакуйте содержимое архива по пути, который не содержит кириллицу/спец. символы
+
+5. Запустите service.bat
+
+6. В пункте Settings выберите Game Filter и выберите TCP and UDP
+
+7. В пункте Settings выберите IPSet Filter и выберите loaded
 
 > [!CAUTION]
 >
@@ -30,22 +62,6 @@
 
 > [!IMPORTANT]
 > Все бинарные файлы в папке [`bin`](./bin) взяты из [zapret-win-bundle/zapret-winws](https://github.com/bol-van/zapret-win-bundle/tree/master/zapret-winws) и [zapret/releases](https://github.com/bol-van/zapret/releases). Вы можете это проверить с помощью хэшей/контрольных сумм. Проверяйте, что запускаете, используя сборки из интернета!
-
-## ⚙️Использование
-
-1. Включите Secure DNS
-    * В Chrome - "Использовать безопасный DNS", и выбрать поставщика услуг DNS (выбрать вариант, отличный от поставщика по умолчанию)
-    * В Firefox - "Включить DNS через HTTPS, используя: Максимальную защиту", затем "Выбрать поставщика" и вписать URL поставщика вручную, например можно использовать `https://dns.google/dns-query` (т.к. поставщик Cloudflare может быть заблокирован)
-    * В Windows 11 поддерживается включение Secure DNS прямо в настройках ОС - [инструкция тут](https://remontka.pro/dns-over-https-windows-11/). Рекомендуется, если вы пользуетесь Windows 11
-    * Если у вас роутер Keenetic, включите в настройках роутера опцию "Транзит запросов". Отключение этой опции может привести к проблемам при настройке и использовании Secure DNS на компьютере
-
-2. Скачайте архив (zip/rar) со [страницы последнего релиза](https://github.com/Flowseal/zapret-discord-youtube/releases/latest)
-
-3. Зайдите в свойства скачанного архива и поставьте галочку "Разблокировать". Если вы используете архиватор 7-Zip или PeaZip, этот шаг можно пропустить
-
-4. Распакуйте содержимое архива по пути, который не содержит кириллицу/спец. символы
-
-5. Запустите нужный файл
 
 ## ℹ️Краткие описания файлов
 
@@ -163,11 +179,6 @@ sc delete название_из_первого_шага
 - Если Discord и в браузере не работает, убедитесь что вы настроили Secure DNS, и после этого ещё раз пробуйте все стратегии. Бывает такое, что на одной стратегии YouTube работает, а Discord нет.
 - См. также [#252](https://github.com/Flowseal/zapret-discord-youtube/discussions/252)
 
-### Не работает <img src="https://cdn-icons-png.flaticon.com/128/5968/5968804.png" height=18 /> Telegram
-
-- Используйте программу [tg-ws-proxy](https://github.com/Flowseal/tg-ws-proxy)
-- Или используйте бесплатные MTProto прокси из интернета
-
 ### Не работают игры
 
 Есть много разных игр. Исследовать и чинить каждую из них нет возможности.
@@ -206,13 +217,3 @@ sc delete название_из_первого_шага
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Flowseal/zapret-discord-youtube&type=Date" />
  </picture>
 </a>
-
-## ⚖️Лицензирование
-
-Проект распространяется на условиях лицензии [MIT](https://github.com/Flowseal/zapret-discord-youtube/blob/main/LICENSE.txt)
-
-## 🩷Благодарность участникам проекта
-
-[![Contributors](https://contrib.rocks/image?repo=Flowseal/zapret-discord-youtube)](https://github.com/Flowseal/zapret-discord-youtube/graphs/contributors)
-
-💖 Отдельная благодарность разработчику [zapret](https://github.com/bol-van/zapret) - [bol-van](https://github.com/bol-van)
