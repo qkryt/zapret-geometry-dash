@@ -9,6 +9,7 @@
 ## ⚖️Лицензирование
 
 Оригинальный проект [zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
+
 Проект распространяется на условиях лицензии [MIT](https://github.com/Flowseal/zapret-discord-youtube/blob/main/LICENSE.txt)
 
 ## 🩷Благодарность участникам проекта
