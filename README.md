@@ -2,13 +2,12 @@
 
 # <img src="https://static.wikia.nocookie.net/logopedia/images/4/41/Geometry_Dash_Icon.svg/revision/latest?cb=20220220121501" height=28 /> <a href="https://github.com/qkryt/">qkryt</a><a href="https://github.com/qkryt/zapret-geometry-dash">/zapret-geometry-dash</a> <img src="https://images.steamusercontent.com/ugc/24313456754767771/12393CA9D519144403B272CE5C9C00D40F21378C/" height=28 />
 
+Оригинальный проект [zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
 Альтернатива https://github.com/bol-van/zapret-win-bundle  
 Также вы можете материально поддержать оригинального разработчика zapret [тут](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0)
 </div>
 
 ## ⚖️Лицензирование
-
-Оригинальный проект [zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
 
 Проект распространяется на условиях лицензии [MIT](https://github.com/Flowseal/zapret-discord-youtube/blob/main/LICENSE.txt)
 
