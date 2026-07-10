@@ -120,7 +120,6 @@ system17.ungrounded.net
 textureworkshop.plusgdps.dev
 textureworkshop.xyz
 trycloudflare.com
-ttvnw.net
 live-video.net
 tws.m336.dev
 uimg.ngfiles.com
